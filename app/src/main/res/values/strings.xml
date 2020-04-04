@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Poupe+</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="btn_buscar">buscar</string>
+    <string name="label_usuario">Email</string>
+    <string name="label_senha">Senha</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="label_login">Login</string>
+    <string name="title_activity_tela_principal">Meus Gastos</string>
+    <string name="btn_cadastro">Cadastrar Usuário</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="labelusuario">Usuário</string>
+    <string name="txt_usuario" />
+    <string name="label_email">Email</string>
+    <string name="txt_email" />
+    <string name="labelSenha">Senha</string>
+    <string name="label_confirmacao">Confirmação da senha</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="labelValor">Valor</string>
+    <string name="labelData">Data</string>
+    <string name="labelCategoria">Categoria</string>
+    <string name="btn_adicionar_gasto">Adicionar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_delete">Deletar</string>
+    <string name="txtDataEdita" />
+    <string name="btn_editar_gasto">Salvar</string>
+</resources>

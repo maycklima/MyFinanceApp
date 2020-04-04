@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views_controller.CadastrarUsuario">
+
+    <TextView
+        android:id="@+id/labelUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labelusuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/btn_cadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_confirmacao_cadastro" />
+
+    <EditText
+        android:id="@+id/txt_usuario_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_usuario"
+        app:layout_constraintEnd_toEndOf="@+id/labelUsuario"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/labelUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/labelUsuario" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_email"
+        app:layout_constraintStart_toStartOf="@+id/txt_usuario_cadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_usuario_cadastrar" />
+
+    <TextView
+        android:id="@+id/label_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/labelSenha"
+        app:layout_constraintStart_toStartOf="@+id/txt_email_cadastro"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_cadastro" />
+
+    <TextView
+        android:id="@+id/label_confirmacaosenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_confirmacao"
+        app:layout_constraintStart_toStartOf="@+id/txt_senha_cadastro"
+        app:layout_constraintTop_toBottomOf="@+id/txt_senha_cadastro" />
+
+    <EditText
+        android:id="@+id/txt_senha_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/label_senha"
+        app:layout_constraintTop_toBottomOf="@+id/label_senha"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txt_confirmacao_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/label_confirmacaosenha"
+        app:layout_constraintTop_toBottomOf="@+id/label_confirmacaosenha" />
+
+    <EditText
+        android:id="@+id/txt_email_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/label_email"
+        app:layout_constraintTop_toBottomOf="@+id/label_email" />
+</android.support.constraint.ConstraintLayout>
