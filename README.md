@@ -1,6 +1,6 @@
 MyFinanceApp
 
-Desenvolvimento de um simples aplicatido de cadastro de gastos do dia a dia.
+Desenvolvimento de um aplicativo simples de cadastro de gastos do dia a dia.
 
 - Cadastro de usuário
 - Login
